@@ -1,0 +1,57 @@
+/* en Larsseit start */
+@font-face {
+    font-family: Larsseit_thin;
+    src: url(./larsseit/Larsseit-Thin.otf);
+}
+@font-face {
+    font-family: Larsseit_light_italic;
+    src: url(./larsseit/Larsseit-LightItalic.otf);
+}
+@font-face {
+    font-family: Larsseit_thin_italic;
+    src: url(./larsseit/Larsseit-ThinItalic.otf);
+}
+@font-face {
+    font-family: Larsseit_light;
+    src: url(./larsseit/Larsseit-Light.otf);
+}
+@font-face {
+    font-family: Larsseit_medium;
+    src: url(./larsseit/Larsseit-Medium.otf);
+}
+/* en Larsseit end */
+
+/* en another start  */
+@font-face {
+    font-family: Big_caslon_medium;
+    src: url(./another/Big-Caslon-Medium.ttf);
+}
+@font-face {
+    font-family: Mishafi_gold;
+    src: url(./another/Mishafi-Gold.ttf);
+}
+/* en another end  */
+
+
+/* ge any start  */
+@font-face {
+    font-family: Arial;
+    src: url(./geo/bpg-arial-webfont.ttf);
+}
+@font-face {
+    font-family: Arial_caps;
+    src: url(./geo/bpg-arial-caps-webfont.ttf);
+}
+@font-face {
+    font-family: Rioni_contrast;
+    src: url(./geo/bpg-rioni-contrast-webfont.ttf);
+}
+@font-face {
+    font-family: nateli;
+    src: url(./geo/bpg-nateli-webfont.ttf);
+}
+@font-face {
+    font-family: nateli_mtavruli;
+    src: url(./geo/bpg-nateli-mtavruli-webfont.ttf);
+}
+/* ge any end  */

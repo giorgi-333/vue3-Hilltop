@@ -1,0 +1,67 @@
+
+/* color + size */
+.rooms_gallary .swiper-button-prev,
+.rooms_gallary .swiper-button-next {
+  color: white !important;
+  font-weight: bold;
+}
+.rooms_gallary .swiper-button-prev:after,
+.rooms_gallary .swiper-button-next:after {
+  font-size: 30px !important;
+  /* box-shadow: 0px 3px 6px #00000029; */
+}
+
+/* margins */
+.rooms_gallary .swiper-button-next,
+.rooms_gallary .swiper-container-rtl .swiper-button-prev {
+  right: 50px !important;
+}
+.rooms_gallary .swiper-button-prev,
+.rooms_gallary .swiper-container-rtl .swiper-button-next {
+  left: 50px !important;
+}
+
+/* hide disable arrow */
+.swiper-button-disabled{
+  opacity: 0 !important;
+}
+
+
+@media(max-width:1400px){
+
+.rooms_gallary .swiper-button-prev:after,
+.rooms_gallary .swiper-button-next:after {
+  font-size: 20px !important;
+}
+
+/* margins */
+.rooms_gallary .swiper-button-next,
+.rooms_gallary .swiper-container-rtl .swiper-button-prev {
+  right: 30px !important;
+}
+.rooms_gallary .swiper-button-prev,
+.rooms_gallary .swiper-container-rtl .swiper-button-next {
+  left: 30px !important;
+}
+
+}
+
+
+
+@media(max-width:576px){
+
+  .rooms_gallary .swiper-button-prev:after,
+  .rooms_gallary .swiper-button-next:after {
+      font-size: 12px !important;
+  }
+  .rooms_gallary .swiper-button-next,
+  .rooms_gallary .swiper-container-rtl .swiper-button-prev {
+      right: 12px !important;
+  }
+ .rooms_gallary .swiper-button-prev,
+ .rooms_gallary .swiper-container-rtl .swiper-button-next {
+      left: 12px !important;
+ }
+
+} 
+
